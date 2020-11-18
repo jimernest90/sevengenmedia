@@ -1,0 +1,14 @@
+.home{
+    color: #006D77;
+    background-color: rgba(225,225,225,0.5);
+}
+h2{
+    text-align: center;
+    font-weight: 100;
+}
+.logo{
+    width: 501px;
+    height: 642px;
+    border: solid #006D77 3px;
+    margin-left: 27em;
+}

@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    font-family: helvetica;
+    background-color: rgba(225,225,225,0.5);
+}
+.nav_items{
+    margin: 1em;
+}

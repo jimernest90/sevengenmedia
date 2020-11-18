@@ -1,0 +1,14 @@
+.box{
+  border: solid #006D77 4px ;
+  border-left: hidden;
+  border-bottom: hidden;
+  width: 95vw;
+  height: 100%;
+}
+.App{
+  font-family: kefa;
+}
+h1{
+  text-align: center;
+  margin-top: 0;
+}

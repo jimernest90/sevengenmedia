@@ -1,0 +1,42 @@
+.about{
+    color: white;
+    background-color: #83C5BE;
+}
+body{
+    background-color: #83C5BE; 
+}
+.company_description{
+    padding-top: 1em;
+    width: 30em;
+    text-align: center;
+    margin: auto;
+}
+.members{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.member{
+    display: flex;
+    margin: 2em;
+}
+.member img{
+    width: 11em;
+    height: 15em; 
+    margin : 0
+}
+.right{
+    order: 2
+}
+.left{
+    order: -1
+}
+.captions{
+    padding: 2em;
+}
+.caption_two{
+    margin-top: .5em;
+}
+.caption_three{
+    margin-top: .5em;
+}
