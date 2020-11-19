@@ -23,7 +23,8 @@ body{
 .member img{
     width: 11em;
     height: 15em; 
-    margin : 0
+    margin : 0;
+    border: solid #006D77 2px
 }
 .right{
     order: 2

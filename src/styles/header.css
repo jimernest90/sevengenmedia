@@ -1,7 +1,20 @@
 .header{
     display: flex;
+    justify-content: space-between;
     font-family: helvetica;
     background-color: rgba(225,225,225,0.5);
+}
+.nav_top{
+    display: flex;
+}
+.nav_bottom{
+    display: flex;
+    align-self: flex-end;
+    padding: 1em;
+}
+.nav_bottom img{
+    width: 1.25em;
+    margin: .5em;
 }
 .nav_items{
     margin: 1em;
