@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/about.css'
-import { members } from '../components/Members'
+import { members } from '../components/Information'
 
 const About = () =>{
     return(

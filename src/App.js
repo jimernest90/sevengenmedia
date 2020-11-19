@@ -2,7 +2,8 @@ import './App.css';
 import Header from './components/Header'
 // import Home from './screens/Home'
 // import About from './screens/About'
-import Work from './screens/Work'
+// import Work from './screens/Work'
+import AboutHisani from './screens/AboutHisani'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header/>
       {/* <Home/> */}
       {/* <About/> */}
-      <Work/>
+      {/* <Work/> */}
+      <AboutHisani/>
     </div>
   );
 }

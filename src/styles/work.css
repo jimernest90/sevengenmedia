@@ -11,19 +11,17 @@ body{
     background-color: rgba(225,225,225,0.5);
     margin: 1em;
     height: 100%;
-    padding: .5em;
+    padding: .1em;
 }
 .work_vids{
    width: 20em;
    height: 10em;
    margin: .5em;
-   box-shadow: 5px 5px 20px;
 }
 .work_photos{
     width: 10em;
     height: 80%;
     margin: .5em;
-    box-shadow: 5px 5px 20px;
 }
 .work_caption{
     width: 15em;
