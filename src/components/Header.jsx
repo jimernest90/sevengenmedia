@@ -3,15 +3,17 @@ import '../styles/header.css';
 import facebook from '../img/facebook-64.png'
 import twitter from '../img/twitter-64.png'
 import linkedIn from '../img/linkedin-3-64.png'
+import { NavLink } from 'react-router-dom'
+
 
 const Header = () =>{
     return(
         <div className='header'>
             <div className='nav_top'>
-                <div className='nav_items'>home</div>
-                <div className='nav_items'>about us</div>
-                <div className='nav_items'>work</div>
-                <div className='nav_items'>contact us</div>
+                <NavLink to="/"><div className='nav_items'>home</div></NavLink>
+                <NavLink to="/aboutus"><div className='nav_items'>about us</div></NavLink>
+                <NavLink to="/ourwork"><div className='nav_items'>work</div></NavLink>
+                <NavLink to="/contactus"><div className='nav_items'>contact us</div></NavLink>
             </div>
             <div className='nav_bottom'>
                 <img src={facebook} className='facebook'/>
