@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     font-family: helvetica;
-    background-color: rgba(225,225,225,0.5);
+    background-color: rgba(225,225,225,0.2);
 }
 .nav_top{
     display: flex;

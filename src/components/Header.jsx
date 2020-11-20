@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles/header.css';
-import facebook from '../img/facebook-16.png'
-import twitter from '../img/twitter-16.png'
+import facebook from '../img/facebook-64.png'
+import twitter from '../img/twitter-64.png'
+import linkedIn from '../img/linkedin-3-64.png'
 
 const Header = () =>{
     return(
@@ -15,6 +16,7 @@ const Header = () =>{
             <div className='nav_bottom'>
                 <img src={facebook} className='facebook'/>
                 <img src={twitter} className='twitter'/>
+                <img src={linkedIn} className='twitter'/>
             </div>
         </div>
     )

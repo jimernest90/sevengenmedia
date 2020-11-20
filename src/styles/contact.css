@@ -1,0 +1,36 @@
+.contact_title{
+    color: #ffffff;
+    margin-top: 5em;
+}
+.contact_form_box{
+    display: flex;
+    padding: 1em;
+    background-image: linear-gradient(to right, #83C5BE, #ffffff)
+    
+    
+}
+.contact_left{
+    width: 50vw;
+    height: 100vh;
+    padding: 5em;
+}
+.contact_right{
+    width: 50vw;
+    height: 30em;
+    border: solid black 2px;
+    box-shadow: 5px 5px 15px;
+    margin-top: 10em;
+    background-color: #ffffff;
+}
+.contact_right form{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.contact_right input {
+    margin: 1em;
+}
+.submit{
+    width: 6em;
+    right: 0;
+}
