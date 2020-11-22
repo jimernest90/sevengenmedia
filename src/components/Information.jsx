@@ -41,20 +41,23 @@ export const projects = [
     {
         id: 1,
         image: jazzTalk,
-        caption: 'Produced and Directed by Hisani for Princeton TV',
-        type: 'vid'
+        caption: 'This talk show series was produced and directed  by Hisani P. DuBose for Princeton TV.',
+        type: 'vid',
+        ref:''
     },
     {
         id: 2,
         image: footballGirls,
-        caption: 'Football Girls',
-        type: 'vid'
+        caption: 'A trailer from the internet series/ Football Girls!, Produced/Directed by Hisani P. DuBose, Editor: Tamzen Jackson',
+        type: 'vid',
+        ref:'https://youtu.be/YMrKrLt9NqY'
     },
     {
         id: 3,
         image: itsTime,
-        caption: 'ITS TIME (What happens when adult children have to put parent in nursing facilities?',
-        type: 'vid'
+        caption: 'ITS TIME (What happens when adult children have to put parents in nursing facilities?',
+        type: 'vid',
+        ref:'https://youtu.be/U_ZTq-EDvWw'
     },
     {
         id: 4,

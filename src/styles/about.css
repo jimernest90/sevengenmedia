@@ -41,3 +41,24 @@ body{
 .caption_three{
     margin-top: .5em;
 }
+@media(max-width:420px){
+    .company_description{
+        width: 75%;
+    }
+    .member{
+        flex-direction: column;
+    }
+    .right{
+        order: -1;
+        align-self: center;
+        text-align: center;
+    }
+    .left{
+        order: -1;
+        align-self: center;
+        text-align: center;
+    }
+    .captions{
+        text-align: center;
+    }
+}

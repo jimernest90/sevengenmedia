@@ -5,9 +5,7 @@
 .contact_form_box{
     display: flex;
     padding: 1em;
-    background-image: linear-gradient(to right, #83C5BE, #ffffff)
-    
-    
+    background-image: linear-gradient(to right, #83C5BE, #ffffff)  
 }
 .contact_left{
     width: 50vw;
@@ -33,4 +31,24 @@
 .submit{
     width: 6em;
     right: 0;
+}
+@media(max-width:420px){
+    .contact_form_box{
+        flex-direction: column;
+        padding: 0;
+    }
+    .contact_left{
+        margin: 0;
+        height: 10vh;
+    }
+    .contact_right{
+        margin: 0;
+        width: 80vw;
+        margin: 0;
+        margin-top: 0;
+        height: 20%;
+    }
+    .contact_title{
+        margin-top: 0;
+    }
 }

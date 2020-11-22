@@ -21,7 +21,7 @@ const encode = (data) => {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", ...this.state })
       })
-        .then(() => alert("Success!"))
+        .then(() => alert("your message was sent!"))
         .catch(error => alert(error));
 
       e.preventDefault();
@@ -37,7 +37,7 @@ const encode = (data) => {
             <div className='contact_form_box'>
             <div className='contact_left'>
             <h1 className='contact_title'>Contact Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellat accusantium a earum at, repellendus iusto commodi amet delectus architecto vitae atque temporibus et quas voluptatum excepturi cumque. Exercitationem, nesciunt.</p>
+            <p>Feel free to contact us. We will get back to you as soon as possible.</p>
             </div>
             <div className='contact_right'>
             <form onSubmit={this.handleSubmit}>
