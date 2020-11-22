@@ -16,9 +16,9 @@ const Header = () =>{
                 <NavLink to="/contactus"><div className='nav_items'>contact us</div></NavLink>
             </div>
             <div className='nav_bottom'>
-                <img src={facebook} className='facebook'/>
-                <img src={twitter} className='twitter'/>
-                <img src={linkedIn} className='twitter'/>
+                <img src={facebook} className='facebook' alt='facebook'/>
+                <img src={twitter} className='twitter' alt='twitter'/>
+                <img src={linkedIn} className='twitter' alt='linkendin'/>
             </div>
         </div>
     )

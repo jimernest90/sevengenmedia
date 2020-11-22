@@ -20,7 +20,7 @@ const About = () =>{
                                 <div className='caption_three'>{member.caption_three}</div>
                                 </div>
                                 <div className={pos}>
-                                <img src={member.image} className={pos}/>
+                                <img src={member.image} className={pos} alt='member_image'/>
                                 <div className={pos}>{member.name}</div>
                                 <div className={pos}>{member.info}</div>
                                 </div>

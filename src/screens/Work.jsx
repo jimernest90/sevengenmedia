@@ -11,7 +11,7 @@ const Work = () => {
                     let sizing = project.type === 'photo' ? 'work_photos' : 'work_vids'     
                     return(
                     <div className='work_box'> 
-                        <img src={project.image} className={sizing}/>
+                        <img src={project.image} className={sizing} alt='project_image'/>
                         <div className='work_caption'>{project.caption}</div>
                     </div>
                     )
