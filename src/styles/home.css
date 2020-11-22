@@ -7,8 +7,19 @@ h2{
     font-weight: 100;
 }
 .logo{
-    width: 501px;
-    height: 642px;
+    display: flex;
+    width: 401px;
+    height: 542px;
     border: solid #006D77 3px;
-    margin-left: 27em;
+    margin: auto;
+    align-self: center;
+}
+.awards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.award{
+    background-color: #83C5BE;
+    margin: 1em;
+    padding: 1em;
 }
