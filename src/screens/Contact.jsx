@@ -19,7 +19,7 @@ const encode = (data) => {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...this.state })
+        body: encode({ "contact-form": "contact", ...this.state })
       })
         .then(() => alert("your message was sent!"))
         .catch(error => alert(error));
@@ -40,7 +40,7 @@ const encode = (data) => {
             <p>Feel free to contact us. We will get back to you as soon as possible.</p>
             </div>
             <div className='contact_right'>
-            <form onSubmit={this.handleSubmit} name="contact" method="POST" data-netlify="true">
+            <form onSubmit={this.handleSubmit} name='contact-form' >
           <p>
             <label>
               Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
