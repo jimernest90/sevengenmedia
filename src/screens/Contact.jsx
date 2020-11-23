@@ -1,36 +1,36 @@
 import React from 'react'
 import '../styles/contact.css'
 
-const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-  }
+// const encode = (data) => {
+//     return Object.keys(data)
+//         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+//         .join("&");
+//   }
 
   class Contact extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = { name: "", email: "", message: "" };
-    }
+    // constructor(props) {
+    //   super(props);
+    //   this.state = { name: "", email: "", message: "" };
+    // }
 
     /* Here’s the juicy bit for posting the form submission */
 
-    handleSubmit = e => {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "contact-form": "contact", ...this.state })
-      })
-        .then(() => alert("your message was sent!"))
-        .catch(error => alert(error));
+    // handleSubmit = e => {
+    //   fetch("/", {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //     body: encode({ "contact-form": "contact", ...this.state })
+    //   })
+    //     .then(() => alert("your message was sent!"))
+    //     .catch(error => alert(error));
 
-      e.preventDefault();
-    };
+    //   e.preventDefault();
+    // };
 
-    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+    // handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-        const { name, email, message } = this.state;
+        // const { name, email, message } = this.state;
     return(
         <div className='contact'>
             <div className='box'>
@@ -40,7 +40,7 @@ const encode = (data) => {
             <p>Feel free to contact us. We will get back to you as soon as possible.</p>
             </div>
             <div className='contact_right'>
-            <form onSubmit={this.handleSubmit} name='contact-form' >
+            {/* <form onSubmit={this.handleSubmit} name='contact' action='/contact' method='post' >
           <p>
             <label>
               Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
@@ -59,7 +59,14 @@ const encode = (data) => {
           <p>
             <button type="submit">Send</button>
           </p>
-        </form>
+        </form> */}
+          <form name='contact' action='/contact' method='post'>
+            <input type='hidden' name='form-name' value='contact'/>
+            <input required type='text' name='name' placeholder='Your name'/>
+            <input required type='email' name='email' placeholder='Your email'/>
+            <textarea required name='message' placeholder='Message' cols='30' rows='10'></textarea>
+            <button type='submit' className='submit'>submit</button>
+          </form>
             </div>
             </div>
             </div>
