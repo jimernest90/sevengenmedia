@@ -40,7 +40,7 @@ const encode = (data) => {
             <p>Feel free to contact us. We will get back to you as soon as possible.</p>
             </div>
             <div className='contact_right'>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} name="contact" method="POST" data-netlify="true">
           <p>
             <label>
               Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
