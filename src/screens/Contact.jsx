@@ -33,7 +33,7 @@ import '../styles/contact.css'
         // const { name, email, message } = this.state;
     return(
         <div className='contact'>
-            <div className='box'>
+            <div className='box_contact'>
             <div className='contact_form_box'>
             <div className='contact_left'>
             <h1 className='contact_title'>Contact Us</h1>

@@ -31,12 +31,16 @@ body{
 }
 @media(max-width:420px){
     .work_vids{
-        width: 90%;
-        height: 90%;
+        display: flex;
+        width: 92%;
+        height: 92%;
+        align-self: center;
     }
     .work_photos{
-        width: 90%;
-        height: 90%;
+        display: flex;
+        width: 92%;
+        height: 92%;
+        align-self: center;
     }
     .work_box{
         width: 75%;
