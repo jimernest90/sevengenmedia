@@ -18,10 +18,10 @@ const Header = () =>{
                 <NavLink to="/contactus"><div className='nav_items'>contact us</div></NavLink>
             </div>
             <div className='nav_bottom'>
-                <a href='https://facebook.com/sevgenprod' target='_blank'><img src={facebook} className='facebook' alt='facebook'/></a>
-                <a href='https://twitter.com/sevgenprod' target='_blank'><img src={twitter} className='twitter' alt='twitter'/></a>
-                <a href='https://www.linkedin.com/in/hisani-p-dubose-31b2176/' target='_blank'><img src={linkedIn} className='twitter' alt='linkendin'/></a>
-                <a href='https://instagram.com/hisanidubose' target='_blank'><img src={instagram} className='twitter' alt='linkendin'/></a>
+                <a href='https://facebook.com/sevgenprod' target='_blank' rel="noreferrer"><img src={facebook} className='facebook' alt='facebook'/></a>
+                <a href='https://twitter.com/sevgenprod' target='_blank' rel="noreferrer"><img src={twitter} className='twitter' alt='twitter'/></a>
+                <a href='https://www.linkedin.com/in/hisani-p-dubose-31b2176/' target='_blank' rel="noreferrer"><img src={linkedIn} className='twitter' alt='linkendin'/></a>
+                <a href='https://instagram.com/hisanidubose' target='_blank' rel="noreferrer"><img src={instagram} className='twitter' alt='linkendin'/></a>
             </div>
         </div>
     )
