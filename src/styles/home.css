@@ -1,6 +1,10 @@
+
 .home{
     color: #006D77;
     background-color: rgba(225,225,225,0.5);
+}
+.home_title{
+    padding-top: 1em;
 }
 h2{
     text-align: center;
