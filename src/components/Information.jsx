@@ -43,7 +43,6 @@ export const projects = [
         image: jazzTalk,
         caption: 'This talk show series was produced and directed  by Hisani P. DuBose for Princeton TV.',
         type: 'vid',
-        ref:''
     },
     {
         id: 2,
@@ -63,13 +62,15 @@ export const projects = [
         id: 4,
         image: vanishingBlack,
         caption: '(Currently available on Amazon Prime)',
-        type: 'photo'
+        type: 'photo',
+        ref:'https://www.amazon.com/Vanishing-Black-Male-Melvin-Jackson/dp/B001AOW7AQ/ref=sr_1_3?dchild=1&keywords=vanishing+black+male&qid=1606176882&sr=8-3'
     },
     {
         id: 5,
         image: starvArt,
         caption: 'Artwork by Dadisi J. DuBose Lettering by H. Wolfgang Porter',
-        type: 'photo'
+        type: 'photo',
+        ref:'https://www.amazon.com/Have-Starving-Artist-21st-Century-ebook/dp/B003HC9A4U/ref=sr_1_1?dchild=1&keywords=do+i+have+to+be+a+starving+artist&qid=1606177848&sr=8-1'
     },
     {
         id: 6,
@@ -81,7 +82,8 @@ export const projects = [
         id: 7,
         image: beEpic,
         caption: 'Be Epic',
-        type: 'photo'
+        type: 'photo',
+        ref:'https://www.amazon.com/Be-Epic-Hisani-P-DuBose/dp/1075902517/ref=sr_1_1?dchild=1&keywords=be+epic+hisani&qid=1606177908&sr=8-1'
     },
     {
         id: 8,
