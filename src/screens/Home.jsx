@@ -5,7 +5,7 @@ import logo from '../img/logo.jpg'
 const Home = () =>{
     return (
         <div className='home'>
-        <h1 className='home_title'>Seven Gen Media, LLC</h1>
+        <h1 className='home_title'>Sev Gen Media, LLC</h1>
         <div className='box'>
             <h2>Movies, Documentaries, Screenwriting…On The Rise!</h2>
             <img src={logo} alt='logo' class='logo'/>
